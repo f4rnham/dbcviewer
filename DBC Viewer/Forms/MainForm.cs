@@ -288,8 +288,8 @@ namespace DBCViewer
             {
                 switch (field.Attributes["type"].Value)
                 {
-                    case "long":
-                    case "ulong":
+                    //case "long":
+                    //case "ulong":
                     case "double":
                         count += 2;
                         break;
